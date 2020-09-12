@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "354e84be3657509844ddd5fd77251a45",
+    "content-hash": "b1626bab1b2c39a60a7850b5bb4b9088",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -987,16 +987,16 @@
         },
         {
             "name": "kaishiyoku/laravel-menu",
-            "version": "4.5.0",
+            "version": "4.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Kaishiyoku/laravel-menu.git",
-                "reference": "87cef11c6c51e057750ada96dfa64336c78baab6"
+                "reference": "096bafe0db059621718b2b4eb0dd68e820e98744"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Kaishiyoku/laravel-menu/zipball/87cef11c6c51e057750ada96dfa64336c78baab6",
-                "reference": "87cef11c6c51e057750ada96dfa64336c78baab6",
+                "url": "https://api.github.com/repos/Kaishiyoku/laravel-menu/zipball/096bafe0db059621718b2b4eb0dd68e820e98744",
+                "reference": "096bafe0db059621718b2b4eb0dd68e820e98744",
                 "shasum": ""
             },
             "require": {
@@ -1035,7 +1035,7 @@
                 }
             ],
             "description": "Create menus for Laravel with css-class highlighting support",
-            "time": "2020-09-08T18:42:48+00:00"
+            "time": "2020-09-12T20:30:58+00:00"
         },
         {
             "name": "laravel/framework",
@@ -6307,69 +6307,6 @@
             "time": "2020-05-27T16:41:55+00:00"
         },
         {
-            "name": "kaishiyoku/laravel-cli-create-user",
-            "version": "2.4.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Kaishiyoku/laravel-cli-create-user.git",
-                "reference": "175954e90cb12881e1bcd15f2b5c365d6b3c3208"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Kaishiyoku/laravel-cli-create-user/zipball/175954e90cb12881e1bcd15f2b5c365d6b3c3208",
-                "reference": "175954e90cb12881e1bcd15f2b5c365d6b3c3208",
-                "shasum": ""
-            },
-            "require": {
-                "illuminate/console": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0",
-                "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0",
-                "illuminate/validation": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0|^8.0",
-                "php": "^7.2"
-            },
-            "type": "library",
-            "extra": {
-                "laravel": {
-                    "providers": [
-                        "Kaishiyoku\\CreateUser\\CreateUserServiceProvider"
-                    ]
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Kaishiyoku\\CreateUser\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andreas Wiedel",
-                    "email": "dev@andreas-wiedel.de",
-                    "homepage": "https://andreas-wiedel.de",
-                    "role": "Developer"
-                }
-            ],
-            "description": "An artisan command to create, list and remove users in a laravel application from the cli",
-            "homepage": "https://github.com/kaishiyoku/laravel-cli-create-user",
-            "keywords": [
-                "BOA Ideas",
-                "artisan",
-                "cli",
-                "create",
-                "database",
-                "eloquent",
-                "email",
-                "laravel",
-                "laravel-create-user",
-                "list",
-                "remove",
-                "user"
-            ],
-            "time": "2020-09-08T18:44:00+00:00"
-        },
-        {
             "name": "mockery/mockery",
             "version": "1.4.2",
             "source": {
@@ -8528,7 +8465,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4"
+        "php": "^7.3"
     },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
