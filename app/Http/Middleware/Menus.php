@@ -31,6 +31,9 @@ class Menus
             ->content('<div class="mx-2 text-info pt-2">Sample content</div>');
 
         \LaravelMenu::register('auth')
+            ->dropdownIf(auth()->check(), 'Profile', \LaravelMenu::dropdownContainer()
+                ->link('settings', 'Settings')
+            )
             ->linkIf(auth()->guest(), 'login', 'Login')
             ->linkIf(auth()->guest(), 'register', 'Register')
             ->linkIf(auth()->check(), 'logout', 'Logout');

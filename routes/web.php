@@ -37,6 +37,7 @@ $sampleRoutes = collect([
     'login' => ['login', 'Login'],
     'register' => ['register', 'Register'],
     'logout' => ['logout', 'Logout'],
+    'settings' => ['settings', 'Settings'],
 ]);
 
 $sampleRoutes->each(function ($values, $routeName) {
